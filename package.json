@@ -1,42 +1,42 @@
 {
     "name": "stratum-pool",
-    "version": "0.1.6",
-    "description": "High performance Stratum poolserver in Node.js",
+    "version": "0.2.0",
+    "description": "High performance Komodo stratum poolserver in Node.js",
     "keywords": [
         "stratum",
         "mining",
         "pool",
         "server",
         "poolserver",
-        "bitcoin",
-        "litecoin",
-        "scrypt"
+        "komodo"
     ],
-    "homepage": "https://github.com/joshuayabut/node-stratum-pool",
+    "homepage": "https://github.com/TheComputerGenie/node-stratum-pool",
     "bugs": {
-        "url": "https://github.com/joshuayabut/node-stratum-pool/issues"
+        "url": "https://github.com/TheComputerGenie/node-stratum-pool/issues"
     },
     "license": "GPL-2.0",
-    "author": "Matthew Little",
+    "author": "ComputerGenie"
     "contributors": [
+    	"Matthew Little",
         "vekexasia",
-        "TheSeven"
+        "TheSeven",
+        "joshuayabut"
     ],
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/joshuayabut/node-stratum-pool.git"
+        "url": "https://github.com/TheComputerGenie/node-stratum-pool.git"
     },
     "dependencies": {
-        "equihashverify": "git+https://github.com/zencashofficial/equihashverify.git",
+        "equihashverify": "https://github.com/zencashofficial/equihashverify.git#7a7403b229477d7cef5735a54e223c72cee5bcdf",
         "bignum": "*",
         "base58-native": "*",
         "async": "*",
-        "merkle-bitcoin": "git+https://github.com/joshuayabut/merkle-bitcoin.git",
-        "bitcoinjs-lib-zcash": "git+https://github.com/runn1ng/bitcoinjs-lib.git#zcash",
+        "merkle-bitcoin": "https://github.com/joshuayabut/merkle-bitcoin.git#3606036e3a44aa46e5a16cc6d7beea8e49dec8ef",
+        "bitcoinjs-lib-zcash": "https://github.com/karel-3d/bitcoinjs-lib.git#e30d9d4af20afc492634a64194b566b4f0fb0d7e",
         "promise": "*"
     },
     "engines": {
-        "node": ">=7"
+        "node": ">=8"
     }
 }
