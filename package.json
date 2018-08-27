@@ -10,9 +10,9 @@
         "poolserver",
         "komodo"
     ],
-    "homepage": "https://github.com/TheComputerGenie/node-stratum-pool",
+    "homepage": "https://github.com/webworker01/node-stratum-pool",
     "bugs": {
-        "url": "https://github.com/TheComputerGenie/node-stratum-pool/issues"
+        "url": "https://github.com/webworker01/node-stratum-pool/issues"
     },
     "license": "GPL-2.0",
     "author": "ComputerGenie",
@@ -25,10 +25,10 @@
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/TheComputerGenie/node-stratum-pool.git"
+        "url": "https://github.com/webworker01/node-stratum-pool.git"
     },
     "dependencies": {
-        "equihashverify": "https://github.com/zencashofficial/equihashverify.git#7a7403b229477d7cef5735a54e223c72cee5bcdf",
+        "equihashverify": "https://github.com/webworker01/equihashverify.git",
         "bignum": "*",
         "base58-native": "*",
         "async": "*",
