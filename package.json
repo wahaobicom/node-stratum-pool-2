@@ -15,8 +15,9 @@
         "url": "https://github.com/webworker01/node-stratum-pool/issues"
     },
     "license": "GPL-2.0",
-    "author": "ComputerGenie",
+    "author": "webworker01",
     "contributors": [
+        "ComputerGenie",
     	"Matthew Little",
         "vekexasia",
         "TheSeven",
