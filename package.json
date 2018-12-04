@@ -29,14 +29,14 @@
         "url": "https://github.com/webworker01/node-stratum-pool.git"
     },
     "dependencies": {
-        "equihashverify": "https://github.com/webworker01/equihashverify.git",
-        "bignum": "*",
-        "base58-native": "*",
         "async": "*",
-        "merkle-bitcoin": "https://github.com/joshuayabut/merkle-bitcoin.git#3606036e3a44aa46e5a16cc6d7beea8e49dec8ef",
+        "base58-native": "*",
+        "bignum": "*",
         "bitgo-utxo-lib": "git+https://github.com/miketout/bitgo-utxo-lib.git",
+        "equihashverify": "git+https://github.com/webworker01/equihashverify.git",
+        "merkle-bitcoin": "git+https://github.com/joshuayabut/merkle-bitcoin.git#3606036e3a44aa46e5a16cc6d7beea8e49dec8ef",
         "promise": "*",
-        "verushash": "git+https://github.com/VerusCoin/verushash-node"
+        "verushash": "git+https://github.com/VerusCoin/verushash-node.git"
     },
     "engines": {
         "node": ">=8"
