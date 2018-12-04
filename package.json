@@ -18,7 +18,7 @@
     "author": "webworker01",
     "contributors": [
         "ComputerGenie",
-    	"Matthew Little",
+        "Matthew Little",
         "vekexasia",
         "TheSeven",
         "joshuayabut"
@@ -34,8 +34,9 @@
         "base58-native": "*",
         "async": "*",
         "merkle-bitcoin": "https://github.com/joshuayabut/merkle-bitcoin.git#3606036e3a44aa46e5a16cc6d7beea8e49dec8ef",
-        "bitcoinjs-lib-zcash": "https://github.com/karel-3d/bitcoinjs-lib.git#e30d9d4af20afc492634a64194b566b4f0fb0d7e",
-        "promise": "*"
+        "bitgo-utxo-lib": "git+https://github.com/miketout/bitgo-utxo-lib.git",
+        "promise": "*",
+        "verushash": "git+https://github.com/VerusCoin/verushash-node"
     },
     "engines": {
         "node": ">=8"
