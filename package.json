@@ -34,7 +34,7 @@
         "bignum": "^0.13.0",
         "bitgo-utxo-lib": "git+https://github.com/miketout/bitgo-utxo-lib.git",
         "equihashverify": "git+https://github.com/webworker01/equihashverify.git",
-        "merkle-bitcoin": "git+https://github.com/joshuayabut/merkle-bitcoin.git#3606036e3a44aa46e5a16cc6d7beea8e49dec8ef",
+        "merkle-bitcoin" : "git+https://github.com/webworker01/merkle-bitcoin.git",
         "promise": "^8.0.2",
         "verushash": "git+https://github.com/VerusCoin/verushash-node.git"
     },
